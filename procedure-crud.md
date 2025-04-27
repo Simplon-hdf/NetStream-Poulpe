@@ -1,3 +1,17 @@
+# 📋 Procédures CRUD PostgreSQL
+
+## 📑 Sommaire
+
+- [🔄 Procédures CRUD](#-procedure-crud)
+  - [➕ Procédure d'ajout d'un acteur](#-procedure-dajout-dun-acteur)
+  - [🔍 Procédures de lecture](#-procedure-de-lecture-dun-acteur-par-son-id)
+    - [👤 Lecture d'un acteur par ID](#-lecture-dun-acteur)
+    - [👶 Lecture des acteurs de moins de 30 ans](#-lecture-multiple-acteur-de-moins-de-trente-ans)
+  - [🔄 Procédures de mise à jour](#-mise-a-jour-dun-acteur)
+    - [📝 Mise à jour complète d'un acteur](#-mise-à-jour-de-toutes-les-données-dun-acteur)
+    - [✏️ Mise à jour du prénom uniquement](#-mise-à-jour-du-prénom-de-lacteur)
+  - [🗑️ Procédure de suppression d'un acteur](#-supprimer-un-acteur)
+
 ## 🔄 Procedure CRUD
 
 ### ➕ Procedure d'ajout d'un acteur
