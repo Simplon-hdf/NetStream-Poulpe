@@ -47,5 +47,5 @@
 |                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 | **archive**            | archive_id          | Numéro de l'archive           | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
 |                        | archive_date        | Date de modification          | TIMESTAMP                 | NOT NULL        | 08/15/2006 17:50:12                  |
-|                        | archive_oldvalue    | Ancienne valeur               | VARCHAR                   | NULL            | titouan59rpz@gmail.com               |
-|                        | archive_newvalue    | Nouvelle valeur               | VARCHAR                   | NULL            | titouan.dupont@gmail.com             |
+|                        | archive_oldvalue    | Ancienne valeur               | VARCHAR                   | NOT NULL        | titouan59rpz@gmail.com               |
+|                        | archive_newvalue    | Nouvelle valeur               | VARCHAR                   | NOT NULL        | titouan.dupont@gmail.com             |
