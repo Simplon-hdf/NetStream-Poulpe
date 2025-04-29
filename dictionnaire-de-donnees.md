@@ -14,11 +14,6 @@
 |                        | actor_birthdate     | Date de naissance de l'acteur | DATE                      | NOT NULL        | 15/06/1974                           |
 |                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 |                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
-| **character**          | character_id        | Numéro du personnage          | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
-|                        | character_name      | Nom du personnage             | VARCHAR                   | NOT NULL        | Jack Sparrow                         |
-|                        | character_type      | Type du personnage            | VARCHAR                   | NOT NULL        | Protagoniste                         |
-|                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
-|                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 | **director**           | director_id         | Numéro du réalisateur         | UUID                      | NOT NULL UNIQUE | 14a94469-f657-4d81-859e-0d56b34fba15 |
 |                        | director_firstname  | Prénom du réalisateur         | VARCHAR                   | NOT NULL        | Steven                               |
 |                        | director_lastname   | Nom du réalisateur            | VARCHAR                   | NOT NULL        | Spielsberg                           |
@@ -49,3 +44,8 @@
 |                        | archive_date        | Date de modification          | TIMESTAMP                 | NOT NULL        | 08/15/2006 17:50:12                  |
 |                        | archive_oldvalue    | Ancienne valeur               | VARCHAR                   | NOT NULL        | titouan59rpz@gmail.com               |
 |                        | archive_newvalue    | Nouvelle valeur               | VARCHAR                   | NOT NULL        | titouan.dupont@gmail.com             |
+| **character**          | character_id        | Numéro du personnage          | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
+|                        | character_name      | Nom du personnage             | VARCHAR                   | NOT NULL        | Jack Sparrow                         |
+|                        | character_type      | Type du personnage            | VARCHAR                   | NOT NULL        | Protagoniste                         |
+|                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
+|                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
