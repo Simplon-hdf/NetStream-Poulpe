@@ -32,6 +32,8 @@
 |                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 | **character_bookmark** | cinephile_id        | Numéro du cinéphile           | UUID                      | NOT NULL UNIQUE | 9db62d23-d3cf-43b2-b02e-e4715fbca28d |
 |                        | character_id        | Numéro du personnage          | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
+|                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
+|                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 | **movie_bookmark**     | cinephile_id        | Numéro du cinéphile           | UUID                      | NOT NULL UNIQUE | 9db62d23-d3cf-43b2-b02e-e4715fbca28d |
 |                        | movie_id            | Numéro du film                | UUID                      | NOT NULL UNIQUE | b6276aa3-02f1-4cb0-a33c-9e61f14a369d |
 |                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
@@ -39,7 +41,7 @@
 | **movie_characters**   | character_id        | Numéro du personnage          | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
 |                        | movie_id            | Numéro du film                | UUID                      | NOT NULL UNIQUE | b6276aa3-02f1-4cb0-a33c-9e61f14a369d |
 |                        | created_at          | Date de création              | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
-|                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 15:18:43.643163           |
+|                        | updated_at          | Date de modification          | DEFAULT CURRENT_TIMESTAMP | NOT NULL        | 2025-04-28 16:18:43.643163           |
 | **archive**            | archive_id          | Numéro de l'archive           | UUID                      | NOT NULL UNIQUE | 431c0816-4f50-450c-9f3a-8eb095659dd5 |
 |                        | archive_date        | Date de modification          | TIMESTAMP                 | NOT NULL        | 08/15/2006 17:50:12                  |
 |                        | archive_oldvalue    | Ancienne valeur               | VARCHAR                   | NOT NULL        | titouan59rpz@gmail.com               |
